@@ -92,7 +92,7 @@ gsap.to(".home-side img",{
     delay:5,
     duration:1,
 })
-gsap.to(".home-main",{
+gsap.to(".home-main ",{
     width:"900px",
     delay:2,
     ease: "slow(0.1,0.1,false)",
