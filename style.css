@@ -20,7 +20,6 @@ body {
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-    
 }
 h1{
     font-size: 60px;
@@ -109,7 +108,7 @@ h1{
     -webkit-text-fill-color: transparent;
     filter: drop-shadow(5px 6px 3px rgb(83, 12, 57));
     letter-spacing: 11px;
-    -webkit-text-stroke: 3px rgb(83, 12, 57); 
+    /* -webkit-text-stroke: 3px rgb(83, 12, 57);  */
 }
 .home-side{
     position: relative;
@@ -314,6 +313,9 @@ form input,form textarea{
     text-align: end;
 }
 
+.testimonial{
+    overflow: hidden;
+}
 .marquee {
     width: 100%;
     /* overflow: hidden; */

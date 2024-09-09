@@ -81,6 +81,19 @@ gsap.to(".menu1", {
   }
 });
 
+// gsap.to(".menu1", {
+//     xPercent: -240,
+//     ease: "none",
+//     scrollTrigger: {
+//         trigger: "#menu",
+//         start: "top top",
+        
+//         scrub: 3,
+//         pin: true,
+//         anticipatePin: 1
+//     }
+// });
+
 
 
 
